@@ -5,7 +5,12 @@
 
 int main()
 {
-    std::cout << "Hello World!"  << std::endl;
+    int a, b;
+    std::cout << "Text the first number"  << std::endl;
+    std::cin >> a;
+    std::cout << "Text the second number" << std::endl;
+    std::cin >> b;
+    std::cout << "The summ of your numbers is equal to - " << a + b << std::endl;
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
