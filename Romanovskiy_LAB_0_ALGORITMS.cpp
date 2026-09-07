@@ -1,16 +1,20 @@
-﻿// Romanovskiy_LAB_0_ALGORITMS.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
+﻿// Romanovskiy_LAB_1_ALG_LANG.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 //
 
 #include <iostream>
 
+
 int main()
 {
-    int a, b;
-    std::cout << "Text the first number"  << std::endl;
-    std::cin >> a;
-    std::cout << "Text the second number" << std::endl;
-    std::cin >> b;
-    std::cout << "The summ of your numbers is equal to - " << a + b << std::endl;
+    int x;
+    std::cin >> x;
+    if (x != 0) {
+        std::cout << 10 / x;
+    }
+    else {
+        std::cout << "eror";
+    }
+
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"

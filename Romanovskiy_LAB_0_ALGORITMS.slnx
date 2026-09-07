@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Romanovskiy_LAB_0_ALGORITMS.vcxproj" />
+  <Project Path="Romanovskiy_LAB_0_ALGORITMS.vcxproj" Id="ab1abe50-1026-4a78-850b-0dafb1cdd1f8" />
 </Solution>
